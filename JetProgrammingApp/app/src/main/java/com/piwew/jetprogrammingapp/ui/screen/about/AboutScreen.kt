@@ -32,8 +32,8 @@ import com.piwew.jetprogrammingapp.ui.theme.JetProgrammingAppTheme
 
 @Composable
 fun AboutScreen(
-    modifier: Modifier = Modifier,
-    navigateBack: () -> Unit
+    navigateBack: () -> Unit,
+    modifier: Modifier = Modifier
 ) {
     AboutContent(
         modifier = modifier,
@@ -43,8 +43,8 @@ fun AboutScreen(
 
 @Composable
 fun AboutContent(
-    modifier: Modifier = Modifier,
-    onBackClick: () -> Unit
+    onBackClick: () -> Unit,
+    modifier: Modifier = Modifier
 ) {
     Column(
         modifier = modifier.padding(8.dp),
@@ -112,6 +112,6 @@ fun AboutContent(
 @Composable
 fun PreviewAboutContent() {
     JetProgrammingAppTheme {
-        AboutContent {}
+        AboutContent({})
     }
 }

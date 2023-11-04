@@ -19,6 +19,8 @@ import com.piwew.jetprogrammingapp.ui.screen.detail.DetailScreen
 import com.piwew.jetprogrammingapp.ui.screen.favorite.FavoriteScreen
 import com.piwew.jetprogrammingapp.ui.screen.home.HomeScreen
 
+const val LANGUAGE_ID: String = "languageId"
+
 @Composable
 fun JetProgrammingApp(
     modifier: Modifier = Modifier,
@@ -53,9 +55,9 @@ fun JetProgrammingApp(
             }
             composable(
                 route = Screen.DetailLanguage.route,
-                arguments = listOf(navArgument("languageId") { type = NavType.StringType })
+                arguments = listOf(navArgument(LANGUAGE_ID) { type = NavType.StringType })
             ) {
-                val id = it.arguments?.getString("languageId") ?: ""
+                val id = it.arguments?.getString(LANGUAGE_ID) ?: ""
                 DetailScreen(
                     languageId = id,
                     navigateBack = { navController.navigateUp() }
@@ -81,3 +83,4 @@ fun JetProgrammingApp(
         }
     }
 }
+
