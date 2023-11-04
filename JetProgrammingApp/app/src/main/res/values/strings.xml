@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JetProgrammingApp</string>
+    <string name="header">Programming App</string>
+    <string name="search_language">Cari bahasa pemrogramanmu</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed enim orci, commodo ut condimentum id, imperdiet at neque. Ut rutrum eget ligula maximus egestas. Aliquam sodales venenatis metus vitae blandit. Aliquam elementum nisl et metus finibus, non placerat nulla bibendum. Pellentesque id feugiat dui. Sed bibendum quam sagittis erat sodales, ut sollicitudin erat posuere. Aliquam leo nibh, ullamcorper ut porta sit amet, semper quis erat. Pellentesque et ornare libero. Ut feugiat, ex vitae placerat tempor, ligula massa sollicitudin mi, id mollis libero mauris in magna. Donec imperdiet lorem id mi suscipit ultrices. Donec tempus feugiat tortor vitae efficitur. Integer massa odio, luctus vel efficitur ut, gravida sed urna.</string>
+    <string name="profile_picture">https://i.imgur.com/Jc9PGqd.jpg</string>
+    <string name="my_name">Muhammad Rafi</string>
+    <string name="my_email">mochrafi01@gmail.com</string>
+    <string name="empty_favorite">Belum ada bahasa pemrograman favorit</string>
+    <string name="back">Back</string>
+    <string name="add_favorite">Add Favorite</string>
+</resources>
